@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ehdaa Al-Marhabi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional styles for resume page */
+        .resume-section {
+            margin-bottom: 40px;
+        }
+        
+        .resume-header {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            margin-bottom: 30px;
+        }
+        
+        .resume-header h1 {
+            margin-bottom: 10px;
+        }
+        
+        .resume-card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .resume-card h3 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #c0392b;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .info-item i {
+            color: var(--secondary-color);
+            font-size: 1.2em;
+            width: 30px;
+        }
+        
+        .membership-id {
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header style="padding: 30px 0;">
+        <div class="container">
+            <h1>Resume</h1>
+            <p>Ehdaa Al-Marhabi - IT, Network & Cybersecurity Analyst</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <!-- Download Button -->
+            <div style="text-align: center;">
+                <a href="#" class="download-btn" onclick="alert('PDF version will be available soon'); return false;">
+                    <i class="fas fa-download"></i> Download Resume (PDF)
+                </a>
+            </div>
+            
+            <!-- Contact Information -->
+            <div class="resume-card">
+                <h3><i class="fas fa-address-card"></i> Contact Information</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ealmar7bi@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+966 53 228 7322</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Riyadh, Saudi Arabia</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/ealmar7bi</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/ealmar7bi</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Professional Summary -->
+            <div class="resume-card">
+                <h3><i class="fas fa-user-tie"></i> Professional Summary</h3>
+                <p>IT enthusiast with a Bachelor's degree in Computer Science and Cybersecurity, and hands-on experience in IT operations, system maintenance, and user support. Certified Cybersecurity Specialist with strong technical and analytical skills. Committed to ensuring efficient IT performance and secure digital environments.</p>
+            </div>
+            
+            <!-- Work Experience -->
+            <div class="resume-card">
+                <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                
+                <div style="margin-bottom: 25px;">
+                    <h4 style="color: var(--primary-color);">IT Officer</h4>
+                    <p style="font-weight: 500;">Riyadh Steel Company</p>
+                    <p style="color: var(--text-light);">Sep 2025 - Present</p>
+                    <ul style="margin-top: 10px; padding-left: 20px;">
+                        <li>Maintain and support IT systems, networks, and hardware to ensure smooth operations across the organization</li>
+                        <li>Provide technical assistance, manage software and hardware maintenance, and resolve system issues promptly</li>
+                        <li>Contribute to improving infrastructure performance and implementing effective IT solutions</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 style="color: var(--primary-color);">IT Officer Intern</h4>
+                    <p style="font-weight: 500;">Arab Center for Engineering Studies (ACES) Group</p>
+                    <p style="color: var(--text-light);">Jun 2024 - Aug 2024</p>
+                    <ul style="margin-top: 10px; padding-left: 20px;">
+                        <li>Supported daily IT operations, including system maintenance, troubleshooting, and network monitoring</li>
+                        <li>Assisted in managing hardware and software updates to maintain optimal system performance</li>
+                        <li>Provided user support and collaborated with the IT team to ensure efficient workflow</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Education -->
+            <div class="resume-card">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                
+                <div>
+                    <h4 style="color: var(--primary-color);">Bachelor of Computer Science and Cyber Security</h4>
+                    <p>Effat University, College of Engineering</p>
+                    <p style="color: var(--text-light);">Jan 2021 - Jan 2025</p>
+                </div>
+            </div>
+            
+            <!-- Professional Licenses -->
+            <div class="resume-card">
+                <h3><i class="fas fa-id-card"></i> Professional Licenses</h3>
+                
+                <div style="margin-bottom: 15px;">
+                    <p><strong>Registered Cybersecurity Specialist</strong> - Saudi Council of Engineers</p>
+                    <p class="membership-id">Membership ID: 1180661 | Oct 2025</p>
+                </div>
+                
+                <div>
+                    <p><strong>JNCIA-Junos</strong> - Juniper Networks Certified Internet Associate</p>
+                    <p class="membership-id">May 2025</p>
+                </div>
+            </div>
+            
+            <!-- Certifications -->
+            <div class="resume-card">
+                <h3><i class="fas fa-certificate"></i> Certifications & Training</h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
+                    <div>
+                        <h4 style="color: var(--secondary-color);">IBM Certifications (Jul 2025)</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Governance, Risk, Compliance, and Data Privacy</li>
+                            <li>Cloud Security</li>
+                            <li>System and Network Security</li>
+                            <li>Security Operations and Management</li>
+                            <li>Vulnerability Management</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 style="color: var(--secondary-color);">ISC2 Certifications (Jan 2025)</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Systems and Application Security</li>
+                            <li>Incident Response and Recovery</li>
+                            <li>Network and Communications Security</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 style="color: var(--secondary-color);">Additional Training</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Fundamentals of AI (SDAIA, Jun 2025)</li>
+                            <li>Cybersecurity Training (KAUST & NCA, Feb 2025)</li>
+                            <li>Principles of Secure Coding (Coursera, Dec 2024)</li>
+                            <li>Power BI (Microsoft, Oct 2024)</li>
+                            <li>Microsoft Office Specialist (MOS, Jun 2024)</li>
+                            <li>AI Training Program (KAUST Academy, Aug 2022)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical Skills -->
+            <div class="resume-card">
+                <h3><i class="fas fa-cogs"></i> Technical Skills</h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+                    <div>
+                        <h4 style="color: var(--secondary-color);">Programming</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Python</li>
+                            <li>SQL Databases</li>
+                            <li>Bash</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--secondary-color);">Security</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Network Security</li>
+                            <li>Web Security</li>
+                            <li>Security Tools</li>
+                            <li>Vulnerability Management</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--secondary-color);">Systems & Networks</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Operating Systems</li>
+                            <li>Network Protocols</li>
+                            <li>Juniper (JNCIA)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Soft Skills -->
+            <div class="resume-card">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="info-grid">
+                    <div class="info-item">Problem-Solving</div>
+                    <div class="info-item">Critical Thinking</div>
+                    <div class="info-item">Communication Skills</div>
+                    <div class="info-item">Team Collaboration</div>
+                    <div class="info-item">Time Management</div>
+                    <div class="info-item">Attention to Detail</div>
+                </div>
+            </div>
+            
+            <!-- Languages -->
+            <div class="resume-card">
+                <h3><i class="fas fa-language"></i> Languages</h3>
+                <div class="info-grid">
+                    <div class="info-item"><strong>Arabic:</strong> Native</div>
+                    <div class="info-item"><strong>English:</strong> Professional Proficiency</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2026 Ehdaa Al-Marhabi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
